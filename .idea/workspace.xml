@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add Problem_540">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem1020.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem1414.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/problems/Problem1447.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/problems/Problem1447.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Problem540.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem540.java" afterDir="false" />
+    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add Problem_1189,P_1020,P_1984,P_1414">
+      <change beforePath="$PROJECT_DIR$/src/problems/Problem1984.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem1984.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,7 @@
       <workItem from="1644027601536" duration="2462000" />
       <workItem from="1644119907075" duration="9824000" />
       <workItem from="1644460219690" duration="1182000" />
-      <workItem from="1644809220059" duration="15756000" />
+      <workItem from="1644809220059" duration="17337000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>
@@ -182,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644820924089</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Problem_1189,P_1020,P_1984,P_1414">
+      <created>1644837194764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644837194764</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Problem_1189,P_1020,P_1984,P_1414">
+      <created>1644837241416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644837241416</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +214,7 @@
     </ignored-roots>
     <MESSAGE value="First commit" />
     <MESSAGE value="Add Problem_540" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Problem_540" />
+    <MESSAGE value="Add Problem_1189,P_1020,P_1984,P_1414" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Problem_1189,P_1020,P_1984,P_1414" />
   </component>
 </project>

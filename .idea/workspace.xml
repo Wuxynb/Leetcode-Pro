@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="First commit">
+    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add Problem_540">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1414.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/problems/Problem1447.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/problems/Problem1447.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/Problem540.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem540.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +52,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Problem540">
-    <configuration name="Problem1001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem1001" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem1405" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem1405" />
+  <component name="RunManager" selected="Application.Problem1414">
+    <configuration name="Problem1414" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem1414" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -80,6 +71,19 @@
     </configuration>
     <configuration name="Problem1447" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.Problem1447" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem1984" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem1984" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem1414" />
+        <item itemvalue="Application.Problem1984" />
         <item itemvalue="Application.Problem540" />
         <item itemvalue="Application.Problem1447" />
         <item itemvalue="Application.Problem2006" />
-        <item itemvalue="Application.Problem1001" />
-        <item itemvalue="Application.Problem1405" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +166,7 @@
       <workItem from="1644027601536" duration="2462000" />
       <workItem from="1644119907075" duration="9824000" />
       <workItem from="1644460219690" duration="1182000" />
-      <workItem from="1644809220059" duration="6187000" />
+      <workItem from="1644809220059" duration="15756000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>
@@ -171,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644810414452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Problem_540">
+      <created>1644820924089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644820924089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +204,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Add Problem_540" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Problem_540" />
   </component>
 </project>

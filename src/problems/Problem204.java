@@ -31,13 +31,13 @@ public class Problem204 {
         System.out.println(countPrimes(10));
     }
 
-    public static int countPrimes(int n) {
+    public static int countPrimes(int n) { // 厄拉多塞筛法（厄氏筛）
         boolean[] isPrimes = new boolean[n];
         Arrays.fill(isPrimes, true);
         int cnt = 0;
         for (int i = 2; i * i < n; i++) {
-            if (!isPrimes[i]) continue;
-            for (int j = i * i; j < n; j += i) {
+            if (!isPrimes[i]) continue; // 如果i不是素数，则表明被标记过
+            for (int j = i * i; j < n; j += i) { // 从x开始标记，因为2x,3x,…这些数一定在x之前就被其他数的倍数标记过了，例如2的所有倍数，3的所有倍数等
                 isPrimes[j] = false;
             }
         }
@@ -57,9 +57,9 @@ public class Problem204 {
         if (n < 3) return 0;
         int cnt = 1;
         for (int i = 3; i < n; i++) {
-            if ((i & 1) == 0) continue;
+            if ((i & 1) == 0) continue; // 如果是偶数，则一定不是质数
             boolean f = true;
-            for (int j = 3; j * j <= i; j += 2) {
+            for (int j = 3; j * j <= i; j += 2) { // j += 2，是因为i不是偶数，只要与奇数相除即可
                 if (i % j == 0) {
                     f = false;
                     break;

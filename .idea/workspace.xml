@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change afterPath="$PROJECT_DIR$/src/bbc/XORSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/LeftChildRightBrother.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.XORSequence">
+  <component name="RunManager" selected="Application.LeftChildRightBrother">
+    <configuration name="LeftChildRightBrother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bbc.LeftChildRightBrother" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bbc.Line" />
       <module name="Leetcode-Pro" />
@@ -80,19 +93,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.MathAlgorithms" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MathAlgorithms" />
       <item itemvalue="Application.Line" />
       <item itemvalue="Application.LoopCount" />
       <item itemvalue="Application.Problem744" />
       <item itemvalue="Application.XORSequence" />
+      <item itemvalue="Application.LeftChildRightBrother" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftChildRightBrother" />
         <item itemvalue="Application.XORSequence" />
         <item itemvalue="Application.Problem744" />
         <item itemvalue="Application.LoopCount" />
         <item itemvalue="Application.Line" />
-        <item itemvalue="Application.MathAlgorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +224,7 @@
       <workItem from="1648793455597" duration="2356000" />
       <workItem from="1648809365562" duration="82000" />
       <workItem from="1648810953238" duration="31973000" />
-      <workItem from="1648965068444" duration="3833000" />
+      <workItem from="1648965068444" duration="11614000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>
@@ -313,7 +313,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>

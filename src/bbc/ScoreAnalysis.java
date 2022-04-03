@@ -12,7 +12,7 @@ public class ScoreAnalysis {
             scores[i] = scanner.nextInt();
         System.out.println(Arrays.stream(scores).max().getAsInt());
         System.out.println(Arrays.stream(scores).min().getAsInt());
-        System.out.println(String.format("%.2f", Arrays.stream(scores).average().getAsDouble()));
+        System.out.printf("%.2f%n", Arrays.stream(scores).average().getAsDouble());
         scanner.close();
     }
 }

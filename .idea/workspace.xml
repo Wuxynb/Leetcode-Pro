@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/MathAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/DigitalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/FileFormatConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/LoopCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/RunExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/ScoreAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2016.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2024.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2028.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2038.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2043.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2044.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2055.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem258.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem393.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem432.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem504.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem521.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem553.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem589.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem599.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem606.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem653.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem661.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem693.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem728.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem744.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem798.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem954.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/NNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/problems/Problem172.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/problems/Problem172.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/sqls/Problem175.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/sqls/Problem175.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Dijkstra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Problem172.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem172.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sqls/Problem175.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/Problem175.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/TreeNode.java" afterDir="false" />
-    </list>
+    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,7 +221,7 @@
       <workItem from="1648793455597" duration="2356000" />
       <workItem from="1648809365562" duration="82000" />
       <workItem from="1648810953238" duration="31973000" />
-      <workItem from="1648965068444" duration="1116000" />
+      <workItem from="1648965068444" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

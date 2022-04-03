@@ -31,6 +31,30 @@ public class Problem172 {
     public static void main(String[] args) {
         System.out.println(trailingZeroes(5));
         System.out.println(trailingZeroes(10));
+
+        System.out.println(trailingZeroes3(5));
+        System.out.println(trailingZeroes3(10));
+
+        System.out.println(trailingZeroes4(5));
+        System.out.println(trailingZeroes4(10));
+    }
+
+    public static int trailingZeroes3(int n) {
+        int ans = 0;
+        for (int i = 5; i <= n; i += 5) {
+            for (int j = i; j % 5 == 0; j /= 5) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+
+    public static int trailingZeroes4(int n) {
+        int ans = 0;
+        while (n != 0) {
+            ans += (n /= 5);
+        }
+        return ans;
     }
 
     /*

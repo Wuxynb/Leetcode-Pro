@@ -61,22 +61,22 @@ public class BinarySearchTree<K extends Comparable<? super K>, V> {
 
     /**
      * Example:<br>
-     *          3                   <br>
-     *        /   \                 <br>
-     *      1       6               <br>
-     *       \     /  \             <br>
-     *        2   4    7            <br>
-     *              \               <br>
-     *               5              <br>
-     *  删除节点 3 <br>
-
-     *  此时 3的 后继节点successor为 4, 后继节点的父节parent点为 6， current为节点4的左子树 null<br>
-
-     *          4                   <br>
-     *           \                  <br>
-     *            6                 <br>
-     *           / \                <br>
-     *          5   7               <br>
+     * 3                   <br>
+     * /   \                 <br>
+     * 1       6               <br>
+     * \     /  \             <br>
+     * 2   4    7            <br>
+     * \               <br>
+     * 5              <br>
+     * 删除节点 3 <br>
+     * <p>
+     * 此时 3的 后继节点successor为 4, 后继节点的父节parent点为 6， current为节点4的左子树 null<br>
+     * <p>
+     * 4                   <br>
+     * \                  <br>
+     * 6                 <br>
+     * / \                <br>
+     * 5   7               <br>
      **/
     private TreeNode<K, V> successor(TreeNode<K, V> node) {
         // parent: 后继节点的父节点，successor: 后继节点，current：当前遍历的节点

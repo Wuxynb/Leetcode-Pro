@@ -65,7 +65,7 @@ public class TreeNode {
      *
      * @see TreeNode
      * @see List<Integer>
-     * @deprecated replace by <code>createBinaryTree(List<Integer> list)</code>
+     * @deprecated replace by {@link #createBinaryTree(List)}
      * @param nums 二叉树节点值（若值小于或等于0，表明该节点为null）
      * @return 返回创建好的二叉树 TreeNode
      */

@@ -38,6 +38,12 @@ public class TreeArray {
      * <p>
      * Example: x = 6(110), lowbit(x) = 2(10)
      * </p>
+     * <p>
+     *     <ul>
+     *         <li>计算整数x的二进制表示有多少个1： x&=x-1可以消除x最低位的1，while循环计数，直到x=0即可。</li>
+     *         <li>只保留整数x最低位的1： x&-x ，暨鼎鼎大名的 lowbit</li>
+     *     </ul>
+     * </p>
      *
      * @param x 操作数 x
      * @return return x & (~x + 1)

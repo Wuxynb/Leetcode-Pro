@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/TreeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/TreeArrayRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem307.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/UnionFindSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/UnionFindSetRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem762.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/TreeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/TreeArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Problem307">
+  <component name="RunManager" selected="Application.UnionFindSet">
     <configuration name="LeftChildRightBrother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bbc.LeftChildRightBrother" />
       <module name="Leetcode-Pro" />
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem744" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem744" />
+    <configuration name="TreeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.TreeArray" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.TreeArray" />
+    <configuration name="UnionFindSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.UnionFindSet" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -129,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Problem744" />
       <item itemvalue="Application.XORSequence" />
       <item itemvalue="Application.LeftChildRightBrother" />
       <item itemvalue="Application.Problem307" />
       <item itemvalue="Application.TreeArray" />
+      <item itemvalue="Application.UnionFindSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnionFindSet" />
         <item itemvalue="Application.Problem307" />
         <item itemvalue="Application.TreeArray" />
         <item itemvalue="Application.LeftChildRightBrother" />
         <item itemvalue="Application.XORSequence" />
-        <item itemvalue="Application.Problem744" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +227,8 @@
       <workItem from="1648793455597" duration="2356000" />
       <workItem from="1648809365562" duration="82000" />
       <workItem from="1648810953238" duration="31973000" />
-      <workItem from="1648965068444" duration="23411000" />
+      <workItem from="1648965068444" duration="28751000" />
+      <workItem from="1649133267777" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

@@ -30,7 +30,7 @@ public class DynamicProgramming {
 //        }));
 //        System.out.println(knapsack(new int[]{2, 1, 3, 2}, new int[]{12, 10, 20, 15}, 5));
 //        System.out.println(knapsackPlus(new int[]{2, 1, 3, 2}, new int[]{12, 10, 20, 15}, 5));
-//        System.out.println(knapsackBt(new int[]{2, 1, 3, 2}, new int[]{12, 10, 20, 15}, 5));
+        System.out.println(knapsackBt(new int[]{2, 1, 3, 2}, new int[]{12, 10, 20, 15}, 5));
         System.out.println(completeKnapsackBT(new int[]{2, 1, 3, 2}, new int[]{12, 10, 20, 15}, 5));
 //        System.out.println(completeKnapsack(new int[]{2, 2, 6, 5, 4}, new int[]{6, 3, 5, 4, 6}, 10));
 //        System.out.println(completeKnapsackBT(new int[]{2, 2, 6, 5, 4}, new int[]{6, 3, 5, 4, 6}, 10));

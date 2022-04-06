@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/UnionFindSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/UnionFindSetRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem762.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/StateDynamicProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/TravelingSalesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/MinimumWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/PlaneSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/y2020/SevenSegmentCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/y2020/SevenSegmentCodeDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem310.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/TreeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/TreeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/DynamicProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/DynamicProgramming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/GameTheory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/GameTheory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/DynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/DynamicProgramming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bbc/LoopCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/LoopCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hotel-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bbc/y2021" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -63,9 +75,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.UnionFindSet">
-    <configuration name="LeftChildRightBrother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bbc.LeftChildRightBrother" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Problem310">
+    <configuration name="LoopCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bbc.LoopCount" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem307" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem307" />
+    <configuration name="Problem310" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem310" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.TreeArray" />
+    <configuration name="SevenSegmentCodeDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bbc.y2020.SevenSegmentCodeDP" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bbc.y2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateDynamicProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.StateDynamicProgram" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -103,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionFindSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.UnionFindSet" />
+    <configuration name="TravelingSalesman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.TravelingSalesman" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XORSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bbc.XORSequence" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +147,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.XORSequence" />
-      <item itemvalue="Application.LeftChildRightBrother" />
-      <item itemvalue="Application.Problem307" />
-      <item itemvalue="Application.TreeArray" />
-      <item itemvalue="Application.UnionFindSet" />
+      <item itemvalue="Application.StateDynamicProgram" />
+      <item itemvalue="Application.SevenSegmentCodeDP" />
+      <item itemvalue="Application.TravelingSalesman" />
+      <item itemvalue="Application.LoopCount" />
+      <item itemvalue="Application.Problem310" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnionFindSet" />
-        <item itemvalue="Application.Problem307" />
-        <item itemvalue="Application.TreeArray" />
-        <item itemvalue="Application.LeftChildRightBrother" />
-        <item itemvalue="Application.XORSequence" />
+        <item itemvalue="Application.Problem310" />
+        <item itemvalue="Application.StateDynamicProgram" />
+        <item itemvalue="Application.TravelingSalesman" />
+        <item itemvalue="Application.LoopCount" />
+        <item itemvalue="Application.SevenSegmentCodeDP" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +245,8 @@
       <workItem from="1648809365562" duration="82000" />
       <workItem from="1648810953238" duration="31973000" />
       <workItem from="1648965068444" duration="28751000" />
-      <workItem from="1649133267777" duration="674000" />
+      <workItem from="1649133267777" duration="828000" />
+      <workItem from="1649142865639" duration="37161000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

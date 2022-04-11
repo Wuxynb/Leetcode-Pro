@@ -6,6 +6,10 @@ import java.util.Arrays;
  * 树状数组，适用于【单点修改，区间查询】和【区间修改，单点查询】
  */
 public class TreeArray {
+    /**
+     * A: -> 原始数组  <br>
+     * C: -> 前缀和数组
+     */
     int[] A, C;
     int n;
     boolean error = false;

@@ -16,7 +16,9 @@ public class StateDynamicProgram {
 
         System.out.println(deliverTakeout());
 
-//        System.out.println(travelSalesman());
+        System.out.println(travelSalesman());
+
+        System.out.println(travelingSalesmanManyTimes());
     }
 
     public static int knapsack(int[] w, int[] v, int W) {
@@ -71,20 +73,32 @@ public class StateDynamicProgram {
      * 8
      *
      * <p>
-     *     link: http://t.zoukankan.com/wangrunhu-p-9482829.html
+     * link: http://t.zoukankan.com/wangrunhu-p-9482829.html
      * </p>
      *
      * @return 最少花费时间
      */
     public static int deliverTakeout() {
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         int n = input.nextInt() + 1, m = 1 << n, max = 0x7ffff;
         int[][] graph = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 graph[i][j] = input.nextInt();
             }
-        }
+        }*/
+
+        int n = 4, m = 1 << n, max = 0x7ffff;
+        int[][] graph = new int[][]{
+                {0, 1, 10, 10},
+                {1, 0, 1, 2},
+                {10, 1, 0, 10},
+                {10, 2, 10, 0}
+        };
+
+        // 全连通图可以不用初始化，但是非全连通图必须 初始化，预处理，对角线为0，其余为0设为 max
+        // todo: initialize graph
+
         // Floyed算法，先用输入的矩阵跑一遍floyed求出点到点的最短路
         for (int k = 0; k < n; k++) {
             for (int i = 0; i < n; i++) {
@@ -95,7 +109,7 @@ public class StateDynamicProgram {
         }
         System.out.println("Floyed: " + Arrays.deepToString(graph));
         /*
-         * dp[i][j] 表示现在处在 j 点，要去访问剩余的在集合 i 中的点
+         * dp[i][j] 表示 在状态 i 下，现在处在 j 点，（此时 j 点 包含在 i 状态中）要去访问剩余的点
          *
          * 转移就是：dp[i][j]=min{dp[i][j] , dp[i - k][k] + dis[j][k]}，其中v是当前位置，u是上一个状态的位置。
          */
@@ -154,19 +168,19 @@ public class StateDynamicProgram {
      */
     public static int travelSalesman() {
         int n = 4, max = 0x7ffff, m = 1 << (n - 1); // 0x7ffff = 524287
-        /*int[][] matrix = new int[][]{
+        int[][] matrix = new int[][]{
                 {0, 10, 15, 0},
                 {10, 0, 35, 25},
                 {15, 35, 0, 30},
                 {0, 25, 30, 0}
-        };*/
+        };
 
-        int[][] matrix = new int[][]{
+        /*int[][] matrix = new int[][]{
                 {0, 1, 10, 10},
                 {1, 0, 1, 2},
                 {10, 1, 0, 10},
                 {10, 2, 10, 0}
-        };
+        };*/
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -192,5 +206,58 @@ public class StateDynamicProgram {
         }
 
         return dp[0][m - 1];
+    }
+
+    public static int travelingSalesmanManyTimes() {
+        int n = 4, max = 0x7ffff, m = 1 << n; // 0x7ffff = 524287
+        /*int[][] matrix = new int[][]{
+                {0, 1, 10, 10},
+                {1, 0, 1, 2},
+                {10, 1, 0, 10},
+                {10, 2, 10, 0}
+        };*/
+
+        int[][] matrix = new int[][]{
+                {0, 10, 15, 0},
+                {10, 0, 35, 25},
+                {15, 35, 0, 30},
+                {0, 25, 30, 0}
+        };
+
+        // 全连通图可以不用初始化，但是非全连通图必须 初始化，预处理，对角线为0，其余为0设为 max
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) matrix[i][j] = i == j ? 0 : max;
+            }
+        }
+        // floyed
+        for (int k = 0; k < n; k++) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    matrix[i][j] = Math.min(matrix[i][j], matrix[i][k] + matrix[k][j]);
+                }
+            }
+        }
+        // origin -> [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 3], [3, 2, 3, 0]]
+        // none   -> [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 3], [3, 2, 3, 0]]
+        System.out.println("Matrix: " + Arrays.deepToString(matrix));
+        int[][] dp = new int[m][n]; // dp[i][j] --> 遍历完 i 状态时，此时在 j 处时的最短距离
+        for (int i = 0; i < m; i++) Arrays.fill(dp[i], max);
+        dp[1][0] = 0;
+        for (int i = 1; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (((1 << j) & i) == 0 || dp[i][j] == max) continue;
+                for (int k = 0; k < n; k++) {
+                    if (((1 << k) & i) == 1) continue;
+//                    if (((1 << k) & i) == 1 || matrix[j][k] == 0) continue; // 图未初始化
+                    dp[i | (1 << k)][k] = Math.min(dp[i | (1 << k)][k], dp[i][j] + matrix[j][k]);
+                }
+            }
+        }
+        // 从每个点回到 起始点 0
+        for (int i = 0; i < n; i++) dp[m - 1][i] += matrix[i][0];
+//        for (int i = 0; i < n; i++) dp[m - 1][i] += matrix[i][0] == 0 ? max : matrix[i][0]; // 图未初始化
+        System.out.println(Arrays.deepToString(dp));
+        return Arrays.stream(dp[m - 1]).min().orElse(-1);
     }
 }

@@ -16,7 +16,7 @@ public class RunExercise {
                     calendar.get(Calendar.MONTH) == Calendar.OCTOBER &&
                     calendar.get(Calendar.DAY_OF_MONTH) == 2) break;
         }
-        System.out.println(count + 1);
+        System.out.println(count + 1); // 8879
 
         function();
     }

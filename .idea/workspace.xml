@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/Difference1D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/Difference2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem1109.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem1589.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem2132.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem304.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem357.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem380.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem806.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xdoj/P1276MusicList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xdoj/P1378MusicList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/Problem2132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem2132.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +65,7 @@
       <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem304">
+  <component name="RunManager" selected="Application.Problem2132">
     <configuration name="P1276MusicList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xdoj.P1276MusicList" />
       <module name="Leetcode-Pro" />
@@ -150,8 +140,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Problem304" />
         <item itemvalue="Application.Problem2132" />
+        <item itemvalue="Application.Problem304" />
         <item itemvalue="Application.Problem380" />
         <item itemvalue="Application.P1378MusicList" />
         <item itemvalue="Application.P1276MusicList" />
@@ -246,7 +236,8 @@
       <workItem from="1649394735919" duration="29312000" />
       <workItem from="1649586597129" duration="6394000" />
       <workItem from="1649735468329" duration="889000" />
-      <workItem from="1649750312957" duration="24099000" />
+      <workItem from="1649750312957" duration="24264000" />
+      <workItem from="1649863140415" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

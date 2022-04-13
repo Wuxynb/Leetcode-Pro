@@ -1,5 +1,7 @@
 package problems;
 
+import java.util.Arrays;
+
 /**
  * 2132. 用邮票贴满网格图
  * 给你一个 m x n 的二进制矩阵 grid ，每个格子要么为 0 （空）要么为 1 （被占据）。
@@ -62,8 +64,9 @@ public class Problem2132 {
                 sums[i][j] = sums[i - 1][j] + sums[i][j - 1] - sums[i - 1][j - 1] + grid[i - 1][j - 1];
             }
         }
+        // sums: [[0, 0, 0, 0, 0], [0, 1, 1, 1, 1], [0, 2, 2, 2, 2], [0, 3, 3, 3, 3], [0, 4, 4, 4, 4], [0, 5, 5, 5, 5]]
         for (int i = h; i <= m; i++) { // 利用差分标记可放置的点
-            for (int j = w; j <= n; j++) {
+            for (int j = w; j <= n; j++) { // 第一轮：sums[h][w]=sums[0][w]-sums[h][0]+sums[0][0] -- 画图理解
                 int cnt = sums[i][j] - sums[i - h][j] - sums[i][j - w] + sums[i - h][j - w]; // see P304
                 if (cnt == 0) { // 可以放置
                     diffs[i - h + 1][j - w + 1]++;

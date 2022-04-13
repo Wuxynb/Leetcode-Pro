@@ -2,40 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change afterPath="$PROJECT_DIR$/src/bbc/DateShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2017/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2017/SquareSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/FightTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/GlobalWarming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/GlobalWarmingUnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/Monday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/MultipleProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/SquareCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018/ThreeBodyAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/CombinatorialNumberProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/CompleteBinaryTreeWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/RSADecode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/SequenceEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/SumOfSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/TakeoutPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2019/TakeoutPriorityMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2020/PalindromeDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2020/RunExerciseCal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2020/SubstringScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2021/BracketSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2021/MaximumRainfall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem429.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem769.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem780.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem804.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/Difference1D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/Difference2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1109.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1589.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem2132.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem357.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem806.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xdoj/P1276MusicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xdoj/P1378MusicList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/StateDynamicProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/StateDynamicProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/TreeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/TreeArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/RunExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/RunExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/ScoreAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2020/ScoreAnalysis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +75,13 @@
       <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareSplit">
-    <configuration name="FightTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bbc.y2018.FightTime" />
+  <component name="RunManager" selected="Application.Problem304">
+    <configuration name="P1276MusicList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xdoj.P1276MusicList" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bbc.y2018.*" />
+          <option name="PATTERN" value="xdoj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlobalWarming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bbc.y2018.GlobalWarming" />
+    <configuration name="P1378MusicList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xdoj.P1378MusicList" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bbc.y2018.*" />
+          <option name="PATTERN" value="xdoj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlobalWarmingUnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bbc.y2018.GlobalWarmingUnionFind" />
+    <configuration name="Problem2132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem2132" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bbc.y2018.*" />
+          <option name="PATTERN" value="problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bbc.y2017.Maze" />
+    <configuration name="Problem304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem304" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bbc.y2017.*" />
+          <option name="PATTERN" value="problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bbc.y2017.SquareSplit" />
+    <configuration name="Problem380" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem380" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bbc.y2017.*" />
+          <option name="PATTERN" value="problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GlobalWarming" />
-      <item itemvalue="Application.GlobalWarmingUnionFind" />
-      <item itemvalue="Application.FightTime" />
-      <item itemvalue="Application.Maze" />
-      <item itemvalue="Application.SquareSplit" />
+      <item itemvalue="Application.P1276MusicList" />
+      <item itemvalue="Application.P1378MusicList" />
+      <item itemvalue="Application.Problem380" />
+      <item itemvalue="Application.Problem2132" />
+      <item itemvalue="Application.Problem304" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SquareSplit" />
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.FightTime" />
-        <item itemvalue="Application.GlobalWarming" />
-        <item itemvalue="Application.GlobalWarmingUnionFind" />
+        <item itemvalue="Application.Problem304" />
+        <item itemvalue="Application.Problem2132" />
+        <item itemvalue="Application.Problem380" />
+        <item itemvalue="Application.P1378MusicList" />
+        <item itemvalue="Application.P1276MusicList" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +244,9 @@
       <workItem from="1649142865639" duration="65033000" />
       <workItem from="1649337133239" duration="14332000" />
       <workItem from="1649394735919" duration="29312000" />
-      <workItem from="1649586597129" duration="3121000" />
+      <workItem from="1649586597129" duration="6394000" />
+      <workItem from="1649735468329" duration="889000" />
+      <workItem from="1649750312957" duration="24099000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

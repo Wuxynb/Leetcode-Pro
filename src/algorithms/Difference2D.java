@@ -3,8 +3,13 @@ package algorithms;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * 二维差分
+ * <p>
+ *     link: https://blog.csdn.net/weixin_43876403/article/details/122419721
+ * </p>
+ */
 public class Difference2D {
-    static int N;
     static int[][] a; // 原数组 -- 前缀和数组
     static int[][] b; // 差分数组
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Problem2132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem2132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Difference2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Difference2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +236,7 @@
       <workItem from="1649586597129" duration="6394000" />
       <workItem from="1649735468329" duration="889000" />
       <workItem from="1649750312957" duration="24264000" />
-      <workItem from="1649863140415" duration="301000" />
+      <workItem from="1649863140415" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

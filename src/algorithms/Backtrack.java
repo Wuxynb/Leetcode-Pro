@@ -4,27 +4,34 @@ import java.util.Arrays;
 
 /**
  * 子集树伪代码：
- * void backtrack(int t) {
- *     if (t > n) output(x);
- *     else {
- *        for (int i = 0; i <= 1; i++) {
- *            x[t] = i;
- *            if (legal(t)) backtrack(t + 1);
- *        }
- *     }
- * }
- *
+ * <pre> {@code
+ *  void backtrack(int t) {
+ *    if (t > n) output(x);
+ *    else {
+ *       for (int i = 0; i <= 1; i++) {
+ *           x[t] = i;
+ *           if (legal(t)) backtrack(t + 1);
+ *       }
+ *    }
+ *  }}</pre>
+ * <p>
  * 排列数伪代码：
- * void backtrack(int t) {
- *     if (t > n) output(x);
- *     else {
- *         for (int i = t; i <= n; i++) {
- *             swap(x[t], x[i]); // 条件
- *             if (legal(t)) backtrack(t + 1);
- *             swap(x[t], x[i]); // 回溯还原
- *         }
- *     }
- * }
+ * <pre> {@code
+ *  void backtrack(int t) {
+ *      if (t > n) output(x);
+ *      else {
+ *          for (int i = t; i <= n; i++) {
+ *              swap(x[t], x[i]); // 条件
+ *              if (legal(t)) backtrack(t + 1);
+ *              swap(x[t], x[i]); // 回溯还原
+ *          }
+ *      }
+ *  }}</pre>
+ * <p>
+ *     LeetCode: P39、40、46、47
+ * </p>
+ *
+ * <b>todo: 注：backtrack中若 一定会遍历到最后才得到答案可以用for循环或者直接【选】或【不选】，如果结果在遍历中途可以出现时 则用for循环。</b>
  */
 public class Backtrack {
     static int[] w = new int[]{2, 1, 3, 2};

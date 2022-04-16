@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="Add P_1706">
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Difference2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Difference2D.java" afterDir="false" />
+    <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="add something 4/13 23:30">
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1672.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem385.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem479.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem746.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/NestedInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/Backtrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/Backtrack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/DynamicProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/DynamicProgramming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Backtrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Backtrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/DynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/DynamicProgramming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/Problem107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/Problem337.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem337.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +68,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,33 +76,7 @@
       <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem2132">
-    <configuration name="P1276MusicList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xdoj.P1276MusicList" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xdoj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P1378MusicList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xdoj.P1378MusicList" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xdoj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Problem479">
     <configuration name="Problem2132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.Problem2132" />
       <module name="Leetcode-Pro" />
@@ -117,8 +103,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem380" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem380" />
+    <configuration name="Problem385" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem385" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem479" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem479" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem746" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem746" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -131,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P1276MusicList" />
-      <item itemvalue="Application.P1378MusicList" />
-      <item itemvalue="Application.Problem380" />
       <item itemvalue="Application.Problem2132" />
       <item itemvalue="Application.Problem304" />
+      <item itemvalue="Application.Problem746" />
+      <item itemvalue="Application.Problem385" />
+      <item itemvalue="Application.Problem479" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem479" />
+        <item itemvalue="Application.Problem385" />
+        <item itemvalue="Application.Problem746" />
         <item itemvalue="Application.Problem2132" />
         <item itemvalue="Application.Problem304" />
-        <item itemvalue="Application.Problem380" />
-        <item itemvalue="Application.P1378MusicList" />
-        <item itemvalue="Application.P1276MusicList" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +248,7 @@
       <workItem from="1649586597129" duration="6394000" />
       <workItem from="1649735468329" duration="889000" />
       <workItem from="1649750312957" duration="24264000" />
-      <workItem from="1649863140415" duration="673000" />
+      <workItem from="1649863140415" duration="26999000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>
@@ -308,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648987786115</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add something 4/13 23:30">
+      <created>1649863841029</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649863841029</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +367,7 @@
     <MESSAGE value="Add P_1994" />
     <MESSAGE value="Add P_917" />
     <MESSAGE value="Add P_1706" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add P_1706" />
+    <MESSAGE value="add something 4/13 23:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="add something 4/13 23:30" />
   </component>
 </project>

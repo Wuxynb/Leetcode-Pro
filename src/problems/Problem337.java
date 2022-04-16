@@ -48,7 +48,7 @@ public class Problem337 {
         return Math.max(rootStatus[0], rootStatus[1]); // status0 is selected, status1 is don't selected.
     }
 
-    public static int[] dfs(TreeNode node) {
+    public static int[] dfs(TreeNode node) { // 树形DP入门
         if (node == null) return new int[]{0, 0};
         int[] l = dfs(node.left), r = dfs(node.right);
         int selected = node.val + l[1] + r[1], noSelected = Math.max(l[0], l[1]) + Math.max(r[0], r[1]);

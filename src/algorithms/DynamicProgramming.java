@@ -189,6 +189,7 @@ public class DynamicProgramming {
      */
     public static int knapsack(int[] w, int[] v, int W) { // 0, 1背包 -- 动态规划二维数组
         int[][] F = new int[w.length + 1][W + 1];
+        // 初始化
         for (int j = 0; j < F[0].length; j++) {
             F[0][j] = 0;
         }
@@ -196,8 +197,8 @@ public class DynamicProgramming {
             F[i][0] = 0;
         }
 
-        for (int i = 1; i < F.length; i++) {
-            for (int j = 1; j < F[0].length; j++) {
+        for (int i = 1; i < F.length; i++) { // 遍历物品
+            for (int j = 1; j < F[0].length; j++) { // 遍历背包重量
                 F[i][j] = (j - w[i - 1] >= 0) ? Math.max(F[i - 1][j], F[i - 1][j - w[i - 1]] + v[i - 1]) : F[i - 1][j];
             }
         }
@@ -304,9 +305,9 @@ public class DynamicProgramming {
             maxV[0] = Math.max(maxV[0], currV);
         } else {
             if (currW + w[idx] <= W) {
-                backtrack_(w, v, W, maxV, currW + w[idx], currV + v[idx], idx);
+                backtrack_(w, v, W, maxV, currW + w[idx], currV + v[idx], idx); // 拿
             }
-            backtrack_(w, v, W, maxV, currW, currV, idx + 1);
+            backtrack_(w, v, W, maxV, currW, currV, idx + 1); // 不拿
         }
     }
 

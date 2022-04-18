@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="add something 4/13 23:30">
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem1672.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem385.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem479.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem746.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/NestedInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem386.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem819.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/Backtrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/Backtrack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/DynamicProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/DynamicProgramming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Backtrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Backtrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/DynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/DynamicProgramming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Problem107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Problem337.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem337.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/work/cse12-sp21-pa3-Mazes-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MTrans" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -76,35 +67,22 @@
       <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem479">
-    <configuration name="Problem2132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem2132" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem304" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Problem386">
     <configuration name="Problem385" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.Problem385" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem386" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem386" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -142,20 +120,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem819" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem819" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Problem2132" />
-      <item itemvalue="Application.Problem304" />
       <item itemvalue="Application.Problem746" />
       <item itemvalue="Application.Problem385" />
       <item itemvalue="Application.Problem479" />
+      <item itemvalue="Application.Problem819" />
+      <item itemvalue="Application.Problem386" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem386" />
+        <item itemvalue="Application.Problem819" />
         <item itemvalue="Application.Problem479" />
         <item itemvalue="Application.Problem385" />
         <item itemvalue="Application.Problem746" />
-        <item itemvalue="Application.Problem2132" />
-        <item itemvalue="Application.Problem304" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +239,8 @@
       <workItem from="1649586597129" duration="6394000" />
       <workItem from="1649735468329" duration="889000" />
       <workItem from="1649750312957" duration="24264000" />
-      <workItem from="1649863140415" duration="26999000" />
+      <workItem from="1649863140415" duration="35265000" />
+      <workItem from="1650276039474" duration="1998000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

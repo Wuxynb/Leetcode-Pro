@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="add something 4/13 23:30">
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem388.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem420.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem821.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem824.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ConvexHullProblem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/asset/chp/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/asset/chp/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem396.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem587.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem868.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,20 +71,7 @@
       <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem824">
-    <configuration name="Problem386" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem386" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Problem868">
     <configuration name="Problem388" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.Problem388" />
       <module name="Leetcode-Pro" />
@@ -96,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem819" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem819" />
+    <configuration name="Problem396" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem396" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem821" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem821" />
+    <configuration name="Problem587" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem587" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -135,20 +124,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem868" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem868" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Problem819" />
-      <item itemvalue="Application.Problem386" />
-      <item itemvalue="Application.Problem821" />
       <item itemvalue="Application.Problem388" />
       <item itemvalue="Application.Problem824" />
+      <item itemvalue="Application.Problem396" />
+      <item itemvalue="Application.Problem587" />
+      <item itemvalue="Application.Problem868" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem868" />
+        <item itemvalue="Application.Problem587" />
+        <item itemvalue="Application.Problem396" />
         <item itemvalue="Application.Problem824" />
         <item itemvalue="Application.Problem388" />
-        <item itemvalue="Application.Problem821" />
-        <item itemvalue="Application.Problem386" />
-        <item itemvalue="Application.Problem819" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +249,10 @@
       <workItem from="1650364942178" duration="11302000" />
       <workItem from="1650470325446" duration="7000" />
       <workItem from="1650505144219" duration="2273000" />
-      <workItem from="1650525998530" duration="413000" />
+      <workItem from="1650525998530" duration="1289000" />
+      <workItem from="1650594713718" duration="4451000" />
+      <workItem from="1650682227789" duration="7059000" />
+      <workItem from="1650765777001" duration="2095000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

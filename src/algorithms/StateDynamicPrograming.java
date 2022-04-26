@@ -1,7 +1,6 @@
 package algorithms;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 /**
  * 状态压缩DP（状态DP）算法
@@ -9,7 +8,7 @@ import java.util.Scanner;
  * 状压dp的特点一般是规模比较小，n一般小于15。而且一般只有两种决策
  * </p>
  */
-public class StateDynamicProgram {
+public class StateDynamicPrograming {
 
     public static void main(String[] args) {
         System.out.println(knapsack(new int[]{2, 1, 3, 2}, new int[]{12, 10, 20, 15}, 5));

@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="add something 4/13 23:30">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/DigitalDynamicPrograming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/DoNot62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/DoNot62V2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/WindyNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/WindyNumV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem398.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem883.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/CountOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/CountOnesV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem417.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/StateDynamicProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/StateDynamicPrograming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/Problem883.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem883.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +69,13 @@
       <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WindyNumV2">
-    <configuration name="DigitalDynamicPrograming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.DigitalDynamicPrograming" />
+  <component name="RunManager" selected="Application.CountOnesV2">
+    <configuration name="CountOnesV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.ddp.CountOnesV2" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="algorithms.ddp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoNot62V2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.ddp.DoNot62V2" />
+    <configuration name="Problem417" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem417" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.ddp.*" />
+          <option name="PATTERN" value="problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DoNot62V2" />
-      <item itemvalue="Application.DigitalDynamicPrograming" />
       <item itemvalue="Application.WindyNum" />
       <item itemvalue="Application.Problem883" />
       <item itemvalue="Application.WindyNumV2" />
+      <item itemvalue="Application.Problem417" />
+      <item itemvalue="Application.CountOnesV2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountOnesV2" />
+        <item itemvalue="Application.Problem417" />
+        <item itemvalue="Application.Problem883" />
         <item itemvalue="Application.WindyNumV2" />
         <item itemvalue="Application.WindyNum" />
-        <item itemvalue="Application.Problem883" />
-        <item itemvalue="Application.DigitalDynamicPrograming" />
-        <item itemvalue="Application.DoNot62V2" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +252,9 @@
       <workItem from="1650682227789" duration="7059000" />
       <workItem from="1650765777001" duration="2807000" />
       <workItem from="1650851080652" duration="23319000" />
-      <workItem from="1650939961771" duration="3649000" />
+      <workItem from="1650939961771" duration="6904000" />
+      <workItem from="1651024436878" duration="7421000" />
+      <workItem from="1651051477081" duration="5073000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

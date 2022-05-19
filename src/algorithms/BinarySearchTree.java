@@ -2,6 +2,14 @@ package algorithms;
 
 import java.util.Comparator;
 
+/**
+ * <? extends T> 表示类型的上界，表示参数化类型的可能是T 或是 T的子类;
+ * <p>
+ * <? super T> 表示类型下界（Java Core中叫超类型限定），表示参数化类型是此类型的超类型（父类型），直至Object;
+ *
+ * @param <K> 类型参数，键的类型
+ * @param <V> 类型参数，值的类型
+ */
 public class BinarySearchTree<K extends Comparable<? super K>, V> {
     TreeNode<K, V> root;
     Comparator<K> comparator;

@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="add something 4/13 23:30">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/CountOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/ddp/CountOnesV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem417.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/QuickSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviews/P0105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviews/P0406.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/luogu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1305.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1346.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1823.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem427.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem433.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem442.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem449.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem591.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem668.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem691.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem713.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem812.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem905.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem933.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem937.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem942.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem944.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/FNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Problem883.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem883.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinarySearchTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinarySearchTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/GameTheory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/GameTheory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/SortAndDivideConquer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/SortAndDivideConquer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/util/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/SortAndDivideConquer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/SortAndDivideConquer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/StateDynamicPrograming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/StateDynamicPrograming.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +86,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../迅雷下载/V4.0.00.AndroidOffline" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glasgow_ds_test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,13 +99,13 @@
       <recent name="D:\IdeaProjects\Leetcode-Pro\src\bbc\y2021" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountOnesV2">
-    <configuration name="CountOnesV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.ddp.CountOnesV2" />
+  <component name="RunManager" selected="Application.QuickSelection">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luogu.Main" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.ddp.*" />
+          <option name="PATTERN" value="luogu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem417" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem417" />
+    <configuration name="P0105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviews.P0105" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem691" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem691" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem883" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Problem883" />
+    <configuration name="Problem944" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem944" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
@@ -109,25 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindyNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.ddp.WindyNum" />
+    <configuration name="QuickSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.QuickSelection" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.ddp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindyNumV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.ddp.WindyNumV2" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.ddp.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WindyNum" />
-      <item itemvalue="Application.Problem883" />
-      <item itemvalue="Application.WindyNumV2" />
-      <item itemvalue="Application.Problem417" />
-      <item itemvalue="Application.CountOnesV2" />
+      <item itemvalue="Application.Problem944" />
+      <item itemvalue="Application.P0105" />
+      <item itemvalue="Application.Problem691" />
+      <item itemvalue="Application.QuickSelection" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountOnesV2" />
-        <item itemvalue="Application.Problem417" />
-        <item itemvalue="Application.Problem883" />
-        <item itemvalue="Application.WindyNumV2" />
-        <item itemvalue="Application.WindyNum" />
+        <item itemvalue="Application.QuickSelection" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Problem691" />
+        <item itemvalue="Application.P0105" />
+        <item itemvalue="Application.Problem944" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +284,36 @@
       <workItem from="1650851080652" duration="23319000" />
       <workItem from="1650939961771" duration="6904000" />
       <workItem from="1651024436878" duration="7421000" />
-      <workItem from="1651051477081" duration="5073000" />
+      <workItem from="1651051477081" duration="5149000" />
+      <workItem from="1651064907001" duration="142000" />
+      <workItem from="1651115024596" duration="1124000" />
+      <workItem from="1651223719424" duration="5827000" />
+      <workItem from="1651248119725" duration="826000" />
+      <workItem from="1651376354124" duration="1790000" />
+      <workItem from="1651468076921" duration="4190000" />
+      <workItem from="1651554586334" duration="766000" />
+      <workItem from="1651592617698" duration="31000" />
+      <workItem from="1651630501157" duration="3844000" />
+      <workItem from="1651718545183" duration="5873000" />
+      <workItem from="1651768020824" duration="3548000" />
+      <workItem from="1651892405747" duration="3490000" />
+      <workItem from="1651898462231" duration="13368000" />
+      <workItem from="1651931296066" duration="2938000" />
+      <workItem from="1651940327893" duration="4851000" />
+      <workItem from="1651987368809" duration="5095000" />
+      <workItem from="1652112678003" duration="1792000" />
+      <workItem from="1652193800549" duration="27000" />
+      <workItem from="1652237609207" duration="880000" />
+      <workItem from="1652238534331" duration="2809000" />
+      <workItem from="1652407623227" duration="2532000" />
+      <workItem from="1652412291119" duration="742000" />
+      <workItem from="1652494828308" duration="12939000" />
+      <workItem from="1652580882745" duration="361000" />
+      <workItem from="1652667208680" duration="1323000" />
+      <workItem from="1652753496325" duration="208000" />
+      <workItem from="1652842844717" duration="1552000" />
+      <workItem from="1652884851370" duration="27000" />
+      <workItem from="1652925431277" duration="6750000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

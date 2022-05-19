@@ -5,35 +5,40 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+@SuppressWarnings("all")
 public class SortAndDivideConquer {
     public static void main(String[] args) {
-        int[] nums = new int[]{8, 3, 2, 9, 7, 1, 5, 4, 6};
-        mergeSort(nums);
-        System.out.println(Arrays.toString(nums));
-
-        int[] nums1 = new int[]{20, 40, 30, 10, 60, 50, 5};
-        QuickSort(nums1, 0, nums1.length - 1);
-        System.out.println(Arrays.toString(nums1));
-
-        int[] nums2 = new int[]{5, 3, 1, 9, 5, 8, 2, 4, 5, 7};
-        quickSort(nums2, 0, nums2.length - 1);
-        System.out.println(Arrays.toString(nums2));
-
-        int[] nums3 = new int[]{5, 3, 1, 9, 5, 8, 2, 4, 5, 7};
-        insertionSort(nums3);
-        System.out.println(Arrays.toString(nums3));
-
-        int[] nums4 = new int[]{26, 3, 49, 556, 81, 9, 863, 1, 10, 0};
-        radixSort(nums4);
-        System.out.println(Arrays.toString(nums4));
-
-        int[] nums5 = new int[]{26, 3, 49, 556, 81, 9, 863, 1, 10, 0};
-        countingSort(nums5);
-        System.out.println(Arrays.toString(nums5));
-
-        int[] nums6 = new int[]{26, 3, 49, 556, 81, 9, 863, 1, 10, 0};
-        bucketSort(nums6);
-        System.out.println(Arrays.toString(nums6));
+//        int[] nums = new int[]{8, 3, 2, 9, 7, 1, 5, 4, 6};
+//        mergeSort(nums);
+//        System.out.println(Arrays.toString(nums));
+//
+//        int[] nums1 = new int[]{20, 40, 30, 10, 60, 50, 5};
+//        QuickSort(nums1, 0, nums1.length - 1);
+//        System.out.println(Arrays.toString(nums1));
+//
+//        int[] nums2 = new int[]{5, 3, 1, 9, 5, 8, 2, 4, 5, 7};
+//        quickSort(nums2, 0, nums2.length - 1);
+//        System.out.println(Arrays.toString(nums2));
+//
+//        int[] nums3 = new int[]{5, 3, 1, 9, 5, 8, 2, 4, 5, 7};
+//        insertionSort(nums3);
+//        System.out.println(Arrays.toString(nums3));
+//
+//        int[] nums4 = new int[]{26, 3, 49, 556, 81, 9, 863, 1, 10, 0};
+//        radixSort(nums4);
+//        System.out.println(Arrays.toString(nums4));
+//
+//        int[] nums5 = new int[]{26, 3, 49, 556, 81, 9, 863, 1, 10, 0};
+//        countingSort(nums5);
+//        System.out.println(Arrays.toString(nums5));
+//
+//        int[] nums6 = new int[]{26, 3, 49, 556, 81, 9, 863, 1, 10, 0};
+//        bucketSort(nums6);
+//        System.out.println(Arrays.toString(nums6));
+//
+//        int[] nums7 = new int[]{26, 3, 49, 556, 81, 9, 863, 1, 10, 0};
+//        selectionSort(nums7);
+//        System.out.println(Arrays.toString(nums7));
     }
 
     public static void mergeSort(int[] nums) {
@@ -96,7 +101,6 @@ public class SortAndDivideConquer {
 
         nums[low] = nums[j];
         nums[j] = p;
-
         return j;
     }
 
@@ -133,11 +137,25 @@ public class SortAndDivideConquer {
         QuickSort(a, e + 1, end);
     }
 
+    public static void selectionSort(int[] nums) {
+        // 每次选择一个最小的数放在最前面
+        for (int i = 0; i < nums.length - 1; i++) { // 交换次数
+            int min = i; // 先假设每次循环时，最小数的索引为i
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j] < nums[min]) min = j;
+            }
+            int tmp = nums[i];
+            nums[i] = nums[min];
+            nums[min] = tmp;
+        }
+    }
+
     /*
         8, 3, 2, 9, 7, 1, 5, 4, 6
      */
     public static void insertionSort(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
+            // 此时[0,i-1]是已经排好序的数组
             for (int j = i; j > 0; j--) { // 寻找元素nums[i]的插入位置
                 if (nums[j] < nums[j - 1]) {
                     int tmp = nums[j];
@@ -220,7 +238,7 @@ public class SortAndDivideConquer {
     }
 
     public static void countingSort(int[] nums) {
-        int maxV = Arrays.stream(nums).max().getAsInt();
+        int maxV = Arrays.stream(nums).max().orElse(-1);
         int[] buckets = new int[maxV + 1];
         for (int num : nums) {
             buckets[num]++;

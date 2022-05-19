@@ -7,6 +7,13 @@ import java.util.Arrays;
  * <p>
  * 状压dp的特点一般是规模比较小，n一般小于15。而且一般只有两种决策
  * </p>
+ *
+ * <b>注意：</b>
+ * <ul>
+ *     <li>(state >> i) & 1 = 0 or 1</li>
+ *     <li>state & (i << 1) = 0 or 10... 后跟 i-1 位 0</li>
+ * </ul>
+ *
  */
 public class StateDynamicPrograming {
 

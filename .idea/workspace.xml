@@ -2,85 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="add something 4/13 23:30">
-      <change afterPath="$PROJECT_DIR$/docs/ExceptedDynamicProgram.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/GameTheory.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/gt/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/gt/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2022g/ClimbTreeBeetle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2022g/DigitalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2022g/Hive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2022g/KillMousePioneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2022g/NumberOfPrimeFactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/acwing/P217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/acwing/P217_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/bzoj/P3450.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/bzoj/P4318.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/codeforce/P518D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/codeforce/P518D_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P1524.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P1760.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P1846.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P1847.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P1847_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P2873.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P2873_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/username" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/jzoj/P2642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/lightoj/P1315.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/poj/P2311.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/poj/P2960.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem436.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem464.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem467.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem675.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem961.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem965.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/y2022g/SortLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/GameTheory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode-Pro/algorithms/GameTheory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/GameTheory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/GameTheory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/QuickSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/QuickSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/DateShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/DateShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/DigitalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/DigitalTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/FileFormatConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/FileFormatConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/InputReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/LeftChildRightBrother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/LeftChildRightBrother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/LoopCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/LoopCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/MinimumWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/MinimumWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/PlaneSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/PlaneSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/RunExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/RunExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/XORSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/XORSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2017/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2017a/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2017/SquareSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2017a/SquareSplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/FightTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/FightTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/GlobalWarming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/GlobalWarming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/GlobalWarmingUnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/GlobalWarmingUnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/Monday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/Monday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/MultipleProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/MultipleProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/SquareCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/SquareCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2018/ThreeBodyAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2018a/ThreeBodyAttack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/CombinatorialNumberProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/CombinatorialNumberProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/CompleteBinaryTreeWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/CompleteBinaryTreeWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/RSADecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/RSADecode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/SequenceEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/SequenceEvaluation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/SumOfSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/SumOfSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/TakeoutPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/TakeoutPriority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2019/TakeoutPriorityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2019a/TakeoutPriorityMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2020/PalindromeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2020a/PalindromeDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2020/RunExerciseCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2020a/RunExerciseCal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2020/ScoreAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2020a/ScoreAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2020/SevenSegmentCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2020a/SevenSegmentCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2020/SevenSegmentCodeDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2020a/SevenSegmentCodeDP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2020/SubstringScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2020a/SubstringScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2021/BracketSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2021a/BracketSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bbc/y2021/MaximumRainfall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2021a/MaximumRainfall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/luogu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ojs/luogu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xdoj/P1276MusicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ojs/xdoj/P1276MusicList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xdoj/P1378MusicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ojs/xdoj/P1378MusicList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bbc/y2022g/ClimbTreeBeetle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/y2022g/ClimbTreeBeetle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,15 +32,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem1219.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1001.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem2006.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem2047.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem1219.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem1342.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1447.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem1405.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem2006.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1763.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1748.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem1405.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem2047.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem1342.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -131,12 +55,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glasgow_ds_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -147,20 +71,7 @@
       <recent name="ojs.hdoj" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P3450">
-    <configuration name="P217_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ojs.acwing.P217_" />
-      <module name="Leetcode-Pro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ojs.acwing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortLetter">
     <configuration name="P3450" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ojs.bzoj.P3450" />
       <module name="Leetcode-Pro" />
@@ -213,20 +124,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bbc.y2022g.SortLetter" />
+      <module name="Leetcode-Pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bbc.y2022g.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.P217_" />
       <item itemvalue="Application.P518D" />
       <item itemvalue="Application.P518D_" />
       <item itemvalue="Application.P4318" />
       <item itemvalue="Application.P3450" />
+      <item itemvalue="Application.SortLetter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortLetter" />
         <item itemvalue="Application.P3450" />
         <item itemvalue="Application.P4318" />
         <item itemvalue="Application.P518D_" />
         <item itemvalue="Application.P518D" />
-        <item itemvalue="Application.P217_" />
       </list>
     </recent_temporary>
   </component>
@@ -365,6 +289,7 @@
       <workItem from="1652945987780" duration="505000" />
       <workItem from="1652962490963" duration="142923000" />
       <workItem from="1653358887980" duration="22257000" />
+      <workItem from="1653461484170" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>
@@ -471,6 +396,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

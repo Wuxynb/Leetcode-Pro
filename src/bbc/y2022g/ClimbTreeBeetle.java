@@ -68,7 +68,7 @@ public class ClimbTreeBeetle {
     static int maxn = 100005;
     static double[] dp = new double[maxn];  // dp[i] 表示从i到终点的花费的期望时间
     static long mod = 998244353L;
-    static double[] p = new double[maxn];
+    static double[] p = new double[maxn]; // pi 表示在 高度p处掉下去的概率
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -78,7 +78,7 @@ public class ClimbTreeBeetle {
         for (int i = 0; i <= n; i++) {
             long x = scan.nextLong(), y = scan.nextLong();
             double pi = x / (double) y;
-            ClimbTreeBeetle.p[i] = pi;
+            p[i] = pi;
         }
     }
 
@@ -90,6 +90,8 @@ public class ClimbTreeBeetle {
      *   故有状态转移方程：
      *      dp[i-1] = pi * dp[0] + (1-pi)dp[i] + 1
      *      dp[n] = 0
+     *    递推得：
+     *      dp[0] = p1 * dp[0] + (1-p1) * dp[1] + 1
      */
     public static double dfs(int n) {
         if (dp[n] != -1) return dp[n];

@@ -1,5 +1,8 @@
 package algorithms;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 public class QuickSelection {
     public static void main(String[] args) {
         System.out.println(quickSelection(0, 8, 5, new Integer[]{8, 3, 2, 9, 7, 1, 5, 4, 6}));
@@ -7,6 +10,18 @@ public class QuickSelection {
 
         System.out.println(QuickSelect(new int[]{8, 3, 2, 9, 7, 1, 5, 4, 6}, 0, 8, 5));
         System.out.println(QuickSelect(new int[]{1, 3, 2}, 0, 2, 2));
+
+        System.out.println(theKthNum(new Integer[]{8, 3, 2, 9, 7, 1, 5, 4, 6}, 5));
+        System.out.println(theKthNum(new Integer[]{1, 3, 2}, 2));
+    }
+
+    public static <T extends Comparable<T>> T theKthNum(T[] arr, int k) {
+        PriorityQueue<T> pq = new PriorityQueue<>(Comparator.reverseOrder());
+        for (T a : arr) {
+            pq.offer(a);
+            if (pq.size() > k) pq.poll();
+        }
+        return pq.peek();
     }
 
     // 8, 3, 2, 9, 7, 1, 5, 4, 6

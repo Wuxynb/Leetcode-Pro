@@ -17,9 +17,9 @@ public class TreeArray {
     public static void main(String[] args) {
         int[] array = new int[17];
         TreeArray treeArray = new TreeArray(array);
-        for (int i = 1; i <= 16; i++) {
-            array[i] = i;
-            treeArray.add(i, array[i]);
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+            treeArray.add(i + 1, array[i]);
         }
         System.out.println(Arrays.toString(treeArray.A));
         System.out.println(Arrays.toString(treeArray.C));
@@ -31,8 +31,8 @@ public class TreeArray {
 
     public TreeArray(int[] A) {
         this.A = A;
-        this.n = this.A.length - 1;
-        this.C = new int[A.length];
+        this.n = this.A.length;
+        this.C = new int[n + 1];
     }
 
     /**

@@ -304,5 +304,5 @@ public class Main {
 &emsp;&emsp;本总结只是解释了概率与期望 DP 的冰山一角，它可以变化多端，但那些实际上并不只属于概率与期望 DP，真正核心的内容，还是逃不出我们几种方法。
 
 ### 资料链接
-[概率与期望DP](https://www.cnblogs.com/RioTian/p/15053904.html)
+[概率与期望DP](https://www.cnblogs.com/RioTian/p/15053904.html)  
 [动态规划之经典数学期望和概率DP](https://www.cnblogs.com/RioTian/p/14117154.html)

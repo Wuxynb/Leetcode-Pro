@@ -35,7 +35,6 @@ public class UnionFindSetRank {
         int x = find(i), y = find(j);
         if (rank[x] <= rank[y]) fa[x] = y;
         else fa[y] = x;
-
         if (rank[x] == rank[y] && x != y) rank[y]++;
     }
 }

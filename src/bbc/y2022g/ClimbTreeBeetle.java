@@ -66,21 +66,9 @@ import java.util.Scanner;
  */
 public class ClimbTreeBeetle {
     static int maxn = 100005;
-    static double[] dp = new double[maxn];  // dp[i] 表示从i到终点的花费的期望时间
+    static long[] dp = new long[maxn];  // dp[i] 表示从i到终点的花费的期望时间
     static long mod = 998244353L;
-    static double[] p = new double[maxn]; // pi 表示在 高度p处掉下去的概率
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        Arrays.fill(dp, -1);
-        int n = scan.nextInt();
-        dp[n] = 0;
-        for (int i = 0; i <= n; i++) {
-            long x = scan.nextLong(), y = scan.nextLong();
-            double pi = x / (double) y;
-            p[i] = pi;
-        }
-    }
+    static long[] p = new long[maxn]; // pi 表示在 高度p处掉下去的概率
 
     /*
      *   dp[i] 表示从i到终点的花费的期望时间
@@ -92,9 +80,55 @@ public class ClimbTreeBeetle {
      *      dp[n] = 0
      *    递推得：
      *      dp[0] = p1 * dp[0] + (1-p1) * dp[1] + 1
+     *
+     * ==============================================================
+     *
+     * 分析
+     *  先考虑求从0到1的期望。
+     *  有p pp1的概率掉落，1−p1的概率向上移动一次
+     *  只走一次上去的期望时间是 1*(1-p_1)
+     *  只走两次上去的期望时间是 2*(1-p_1)*p_1
+     *  只走三次上去的期望时间是 3*(1-p_1)*p_1^2
+     *  …
+     *  所以期望时间是 Ex(1)=Σ i*(1-p1)*p1^(i-1) = (1-p1) * Σ i * p1^(i-1)
+     *  令F ( x ) = ∑_i=1 i * x^(i-1)则 F(x) = Σ_i=1 (x^i)' = (Σ_i=1 x^i)' = (Σ_i=0 x^i)'
+     *  显然,F ( x ) F(x)F(x)是首项为x xx的等比数列求和，运用等比数列求和公式可得F ( x ) = ( 1 − x ∞ 1 − x ) ′
+     *  所以，E x ( 1 ) = ( 1 − p 1 ) ∗ F ( p 1 ) = ( 1 − p 1 ) ∗ 1 ( 1 − p 1 ) 2 = 1 1 − p 1
+     *  那么从n-1到n的期望时间分析如下：
+     *  一次上去的期望时间是(E x ( n − 1 ) + 1 ) ∗ ( 1 − p n )
+     *  (理解为第一次掉下去，第二次上去)
+     *  三次上去的期望时间是(3 ∗ （ E x ( n − 1 ) + 1 ) ) ∗ ( 1 − p n ) ∗ p n 2
+     *  (理解为前两次掉下去，第三次上去)
+     *  …
+     *  那么，同理可得 E_x(n)=(E_x(n-1)+1)*\sum_{i=1}i*p_n^{i-1}=(E_x(n-1)+1)*\frac{1}{1-p_n}E
+     *
+     *  即得到递推式Ex(n) = (Ex(n−1) + 1)∗ 1/1−p_n
+     *  即 Ex(n) = (Ex(n−1)+1) ∗ yi / yi−xi
+     *  对于除以(yi − xi)在 mod P的意义下等价于乘以(yi−xi)^−1 ，由于P为质数，根据费马小定理，运用快速幂求逆元。
+     *
+     * link: https://blog.csdn.net/qq_36408082/article/details/124089032
      */
-    public static double dfs(int n) {
-        if (dp[n] != -1) return dp[n];
-        return dp[n] = p[n + 1] * dfs(0) + (1 - p[n + 1]) * dfs(n + 1) + 1;
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        Arrays.fill(dp, -1);
+        int n = scan.nextInt();
+        long ans = 0;
+        for (int i = 1; i <= n; i++) {
+            long x = scan.nextLong(), y = scan.nextLong();
+            ans = (ans + 1) * y % mod * quickMi(y - x, mod - 2) % mod;
+            ans = (ans + mod) % mod;
+        }
+        System.out.println(ans);
+        scan.close();
+    }
+
+    public static long quickMi(long a, long b) {
+        long res = 1;
+        while (b != 0) {
+            if ((b & 1) == 1) res = res * a % mod;
+            a = a * a % mod;
+            b >>= 1;
+        }
+        return res;
     }
 }

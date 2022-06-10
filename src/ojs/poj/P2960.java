@@ -122,6 +122,6 @@ public class P2960 {
         for (int i = 0; i < t; i++) {
             if (array[i] <= x) vis[sg[x - array[i]] = getSg(x - array[i])] = true;
         }
-        for (int i = 0; ; i++) if (!vis[i])return sg[x] = i;
+        for (int i = 0; ; i++) if (!vis[i]) return sg[x] = i;
     }
 }

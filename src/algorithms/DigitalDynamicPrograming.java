@@ -1,6 +1,7 @@
 package algorithms;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -8,20 +9,24 @@ import java.util.Scanner;
  * 数位DP
  * <p>
  *     技巧1：[X,Y] => f(Y) - f(X-1);
+ *     <p>
  *     技巧2：树的角度去考虑；
  * </p>
  *
  * <p>
  *   【前导零】问题：
  *    - 是否需要特殊处理前导0这个需要根据前导0的存在是否会影响题目的性质。
+ *    <p>
  *    - 这个题目会影响比如说如果你把 0012 和 12 看成一样的就会有影响，因为在0012 中0 + 0 == 0不是质数所以不符合，而 12 中1 + 2 == 3符合。
+ *    <p>
  *    - 在AcWing - 1082.数字游戏 中是没有影响的因为 0012 和 12 都是不降数，0不会对后面有影响。（即如下题目）
  * </p>
  *
  * <p>
- *     link: https://yuqi-cheng.blog.csdn.net/article/details/106889377?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.pc_relevant_default&utm_relevant_index=5
+ *     link: https://yuqi-cheng.blog.csdn.net/article/details/106889377
  * </p>
  */
+@SuppressWarnings("Duplicates")
 public class DigitalDynamicPrograming {
     static final int N = 15;
     static int[][] f = new int[N][N]; // f[i,j] 表示最高位为j，长度为i的数中，不降数的个数
@@ -76,9 +81,10 @@ public class DigitalDynamicPrograming {
     }
 
     static int[] a = new int[N];
-    static int[] dp = new int[N];
+    static int[][] dp = new int[N][10];
 
     static int solve(int n) {
+        for (int[] ints : dp) Arrays.fill(ints, -1);
         int pos = 0;
         while (n > 0) {
             a[pos++] = n % 10;
@@ -87,14 +93,23 @@ public class DigitalDynamicPrograming {
         return dfs(pos - 1, 0, true);
     }
 
+    /**
+     * 记忆化搜索 遍历 所有结果
+     *
+     * @param pos 当前位数
+     * @param pre 前一位的数
+     * @param limit 是否为最高界
+     * @return 返回当前 结果数
+     */
     static int dfs(int pos, int pre, boolean limit) {
         if (pos == -1) return 1;
+        if (dp[pos][pre] != -1 && !limit) return dp[pos][pre];
         int res = 0, up = limit ? a[pos] : 9;
         for (int i = 0; i <= up; i++) {
             if (i < pre) continue;
             res += dfs(pos - 1, i, limit && i == up);
         }
-        if (!limit) dp[pos] = res;
+        if (!limit) dp[pos][pre] = res;
         return res;
     }
 }

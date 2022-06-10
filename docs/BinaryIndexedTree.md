@@ -272,6 +272,7 @@ public class BinaryIndexedTree {
 ```
 
 ### 模板二
+
 ```java
 package algorithms;
 
@@ -304,7 +305,7 @@ public class TreeArrayRange {
      *
      * @param x 操作数 x
      * @return return x & (~x + 1)
-     * @see TreeArray#lowbit(int)
+     * @see BinaryIndexedTree#lowbit(int)
      */
     public int lowBit(int x) {
         return x & (-x);
@@ -364,6 +365,8 @@ public class TreeArrayRange {
 
 ### 总结
 一般树状数组用来进行【单点修改，区间查询】的操作，涉及到【区间修改】优先考虑使用【线段树】。
+
+**树状数组除了可以枚举 $1 ~ n$ 数组的长度外，还可以枚举值 $a_1 - N$（注意：同样第0号元素不用），例如题目[BBC 小朋友排队](https://www.lanqiao.cn/problems/222/learning/)。**
 
 针对不同的题目，我们有不同的方案可以选择（假设我们有一个数组）：
 

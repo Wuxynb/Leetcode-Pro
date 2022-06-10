@@ -448,12 +448,12 @@ public class Main {
 - 二维SG + 记忆化搜索  
 > &emsp;&emsp;此种解法一般是先从可行状态 (x,y) 出发（当前操作一般之和一个点有关），然后执行某些操作后 到达另一些状态 (i1, j1) ... (ix, jx) 然后此时可以通过sg[][]或者dp[][]数组记忆化遍历过的结果，即下一次只到达一个点（或者说这一次操作只会跳到一个点）。 
 
-| 题目                                                                                               | 标签                                                                                        |
-|:-------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| [JZOJ 2642 游戏](http://www.jzoj.cn/problem.php?id=2642)                                           | 二维SG + dfs                                                                                |  
-| [LightOJ 1315 Game of Hyper Knights](http://www.lightoj.com/volume_showproblem.php?problem=1315) | 二维SG、dfs                                                                                  |  
-| [POJ 2311 Cutting Game](http://poj.org/problem?id=2311)                                          | 二维SG、异或<br>（*当前（一个）操作获得多个状态*）                                                             | 
-| [HDOJ 2873 Bomb Game](http://acm.hdu.edu.cn/showproblem.php?pid=2873)                            | 二维SG、异或<br>（*当前（一个）操作获得多个状态*）<br>正向SG打表、SG函数+DFS 双解法<br>有多组测试用例时，sg数组在最外面初始化（因为sg[x]时固定的） | 
+| 题目                                                         | 标签                                                         |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| [JZOJ 2642 游戏](http://www.jzoj.cn/problem.php?id=2642)     | 二维SG + dfs                                                 |
+| [LightOJ 1315 Game of Hyper Knights](http://www.lightoj.com/volume_showproblem.php?problem=1315) | 二维SG、dfs                                                  |
+| [POJ 2311 Cutting Game](http://poj.org/problem?id=2311)      | 二维SG、异或<br>（*当前（一个）操作获得多个状态*）           |
+| [HDOJ 2873 Bomb Game](http://acm.hdu.edu.cn/showproblem.php?pid=2873) | 二维SG、异或<br>（***当前（一个）操作获得多个状态***）<br>正向SG打表、SG函数+DFS 双解法<br>有多组测试用例时，sg数组在最外面初始化（因为sg[x]时固定的） |
 
 
 - 二维 + 回溯法
@@ -464,6 +464,13 @@ public class Main {
  | [BBC 2022 灭鼠先锋](http://oj.ecustacm.cn/problem.php?id=2022)                    | 博弈、回溯法 |
  | [HDOJ 1760 A New Tetris Game](http://acm.hdu.edu.cn/showproblem.php?pid=1760) | 博弈、回溯法 |
 
+- 【平局】 三维dp + 记忆化搜索
+> 一遍存在平局的情况都是定义三维dp，例如 dp\[i]\[j][k]，i表示第一个玩家状态，j表示第二个玩家状态，k表示轮到谁进行，然后使用记忆化搜索去枚举得到最终答案。
+
+| 题目                                                         | 标签               |
+| :----------------------------------------------------------- | :----------------- |
+| [BBC 2016 取球博弈](http://lx.lanqiao.cn/problem.page?gpid=T2775) | 三维dp、dfs+记忆化 |
+| [913 猫和老鼠](https://leetcode-cn.com/problems/cat-and-mouse/) | 三维dp、dfs+记忆化 |
 
 ### 小结
 - 博弈的题大多数用sg函数打表找规律  
@@ -481,3 +488,80 @@ public class Main {
 > 然后打表找规律即可。
 >  - 第二种打表写法
       从先手必败的局势开始往后递推
+
+
+### 补充
+#### 存在平局情况
+
+- [BBC 取球博弈](http://lx.lanqiao.cn/problem.page?gpid=T2775)
+
+代码：
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class Main {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in), 65536);
+    static StringTokenizer tokenizer = new StringTokenizer("");
+    static int[] arr;
+    static int[][][] dp; // dp[i][j][k]表示玩家1拿了i个球，玩家2拿了j个球，k表示轮到谁来拿球
+    static int n;
+
+    public static void main(String[] args) {
+        arr = new int[]{nextInt(), nextInt(), nextInt()};
+        Arrays.sort(arr);
+        for (int i = 0; i < 5; i++) {
+            n = nextInt();
+            dp = new int[n + 1][n + 1][2];
+            for (int[][] ints1 : dp) for (int[] ints : ints1) Arrays.fill(ints, -2);
+            System.out.print(getChar(dfs(0, 0, 0)) + " ");
+        }
+    }
+
+    public static int dfs(int i, int j, int turn) {
+        if ((n - i - j) < arr[0]) {
+            if ((i & 1) == 1 && (j & 1) == 0) return dp[i][j][turn] = 1;
+            else if ((i & 1) == 0 && (j & 1) == 1) return dp[i][j][turn] = -1;
+            else return dp[i][j][turn] = 0;
+        }
+        if (dp[i][j][turn] != -2) return dp[i][j][turn];
+        int ans = turn == 0 ? -1 : 1; // 必败状态
+        for (int a : arr) {
+            if ((n - i - j) >= a) {
+                int res;
+                if (turn == 0) res = dfs(i + a, j, 1 - turn);
+                else res = dfs(i, j + a, 1 - turn);
+                // 下面语句也可以写成当 res 不是最坏状态时，判断状态为对方必败则直接返回，平局则保留
+                if (turn == 0 && res == 1) return dp[i][j][turn] = 1; // 当前是玩家1取，则玩家2的必败状态是1
+                if (turn == 1 && res == -1) return dp[i][j][turn] = -1; // 当前是玩家2取，则玩家1的必败状态是-1
+                if (res == 0) ans = 0;
+            }
+        }
+        return dp[i][j][turn] = ans;
+    }
+
+    public static char getChar(int x) {
+        if (x == 1) return '+';
+        if (x == -1) return '-';
+        return '0';
+    }
+
+    private static String next() {
+        while (!tokenizer.hasMoreTokens()) {
+            try {
+                tokenizer = new StringTokenizer(br.readLine());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return tokenizer.nextToken();
+    }
+
+    static int nextInt() {
+        return Integer.parseInt(next());
+    }
+}
+```

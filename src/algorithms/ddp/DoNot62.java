@@ -66,7 +66,7 @@ public class DoNot62 {
         int res = 0, up = limit ? a[pos] : 9; // 判断是否为边界，如果是边界，即到边界为止，如果不是则遍历0-9
         for (int i = 0; i <= up; i++) {
             if (i == 4 || (state && i == 2)) continue; //判断是否为4或出现62
-            res += dfs(pos - 1, i == 6, limit && i == up);
+            res += dfs(pos - 1, i == 6, limit && i == up); // i == a[pos]也可
         }
         if (!limit) dp[pos][j] = res;
         return res;

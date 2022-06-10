@@ -50,6 +50,7 @@ public class Problem1823 {
     public static void main(String[] args) {
         System.out.println(findTheWinner(5, 2));
         System.out.println(findTheWinnerR(5, 2));
+
 //        System.out.println(findTheWinner(6, 5));
 //        System.out.println(findTheWinner(9, 3));
     }

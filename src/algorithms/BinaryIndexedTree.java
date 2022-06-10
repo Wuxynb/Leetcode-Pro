@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 树状数组，适用于【单点修改，区间查询】和【区间修改，单点查询】
  */
-public class TreeArray {
+public class BinaryIndexedTree {
     /**
      * A: -> 原始数组  <br>
      * C: -> 前缀和数组
@@ -16,20 +16,20 @@ public class TreeArray {
 
     public static void main(String[] args) {
         int[] array = new int[17];
-        TreeArray treeArray = new TreeArray(array);
+        BinaryIndexedTree bit = new BinaryIndexedTree(array);
         for (int i = 0; i < array.length; i++) {
             array[i] = i + 1;
-            treeArray.add(i + 1, array[i]);
+            bit.add(i + 1, array[i]);
         }
-        System.out.println(Arrays.toString(treeArray.A));
-        System.out.println(Arrays.toString(treeArray.C));
-        System.out.println(treeArray.getSum(15));
-        System.out.println(treeArray.getSumOfRange(15, 16));
-        treeArray.addOfRange(2, 3, 4);
-        System.out.println(treeArray.getSumOfRange(2, 3));
+        System.out.println(Arrays.toString(bit.A));
+        System.out.println(Arrays.toString(bit.C));
+        System.out.println(bit.getSum(15));
+        System.out.println(bit.getSumOfRange(15, 16));
+        bit.addOfRange(2, 3, 4);
+        System.out.println(bit.getSumOfRange(2, 3));
     }
 
-    public TreeArray(int[] A) {
+    public BinaryIndexedTree(int[] A) {
         this.A = A;
         this.n = this.A.length;
         this.C = new int[n + 1];

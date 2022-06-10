@@ -7,7 +7,7 @@ package algorithms;
  *      link: https://www.cnblogs.com/RabbitHu/p/BIT.html
  * </p>
  */
-public class TreeArrayRange {
+public class BinaryIndexedTreeRange {
     /**
      * 第 0 号元素不使用
      */
@@ -18,7 +18,7 @@ public class TreeArrayRange {
 
     }
 
-    public TreeArrayRange(int[] A) {
+    public BinaryIndexedTreeRange(int[] A) {
         this.A = A;
         this.n = A.length - 1;
         C1 = C2 = new int[A.length];
@@ -29,7 +29,7 @@ public class TreeArrayRange {
      *
      * @param x 操作数 x
      * @return return x & (~x + 1)
-     * @see TreeArray#lowbit(int)
+     * @see BinaryIndexedTree#lowbit(int)
      */
     public int lowBit(int x) {
         return x & (-x);

@@ -75,12 +75,11 @@ public class XORSequence {
                         if (n % 2 == 0) {
                             // 1是奇数，n是偶数，那么0是奇数，只要后手把0先选完，后手就获得最后一个1的支配权，后手胜
                             System.out.println("-1");
-                            break;
                         } else {
                             // 同理可得，n是奇数，0是偶数，先手把0先选完，先手获得最后一个1的支配权,先手胜利
                             System.out.println("1");
-                            break;
                         }
+                        break;
                     }
                 }
             }

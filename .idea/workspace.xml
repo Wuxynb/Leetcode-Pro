@@ -1,50 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7f9ab1-524f-4766-9f02-ff699578fd4c" name="Changes" comment="add something 4/13 23:30">
-      <change afterPath="$PROJECT_DIR$/docs/DigitalDynamicProgram.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/ddp/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/ddp/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/ddp/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/ddp/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/ddp/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/asset/ddp/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2012/BallGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2012/BallGame_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2012/BallGame__.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2014b/ChildrenLineUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2016a/TakeBallGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2016a/TakeBallGame_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2018f/JosephRing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bbc/y2022g/DerivationPartSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P2089.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/hdoj/P2089_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/lightoj/P1032.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/lightoj/P1032_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/loj/P10164.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/loj/P10164_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/luogu/P2602.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/luogu/P2657.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/luogu/P3413.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/luogu/P3413_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/poj/NOI0105_40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ojs/poj/NOI0105_40_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem1037.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem453.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem497.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem730.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Problem875.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Differential.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/asset/d/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/asset/d/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/asset/d/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/y2021a/LeftChildRightBrother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bbc/y2021a/XORSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ojs/acwing/P797.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ojs/acwing/P798.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ojs/xdoj/P1276.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ojs/xdoj/P1378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem1051.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem890.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Problem926.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/BinaryIndexedTree.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/BinaryIndexedTree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/GameTheory.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/GameTheory.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/DigitalDynamicPrograming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/DigitalDynamicPrograming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/TreeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinaryIndexedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/TreeArrayRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinaryIndexedTreeRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ddp/CountOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/ddp/CountOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ddp/DoNot62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/ddp/DoNot62.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ojs/poj/P2960.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ojs/poj/P2960.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Problem1823.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem1823.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bbc/others/XORSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bbc/others/XORSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/Problem2132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Problem2132.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +48,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem1219.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem1001.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem2006.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1447.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/problems/Problem1763.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1748.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem1763.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1405.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem2006.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem1001.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/problems/Problem1219.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem2047.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/problems/Problem1342.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -95,7 +71,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glasgow_ds_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -112,13 +92,13 @@
       <recent name="ojs.hdoj" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P3413_">
-    <configuration name="P1032_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ojs.lightoj.P1032_" />
+  <component name="RunManager" selected="Application.BinaryIndexedTree">
+    <configuration name="BinaryIndexedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.BinaryIndexedTree" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ojs.lightoj.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2602" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ojs.luogu.P2602" />
+    <configuration name="LeftChildRightBrother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bbc.y2021a.LeftChildRightBrother" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ojs.luogu.*" />
+          <option name="PATTERN" value="bbc.y2021a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2657" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ojs.luogu.P2657" />
+    <configuration name="P1378" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ojs.xdoj.P1378" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ojs.luogu.*" />
+          <option name="PATTERN" value="ojs.xdoj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3413" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ojs.luogu.P3413" />
+    <configuration name="Problem890" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.Problem890" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ojs.luogu.*" />
+          <option name="PATTERN" value="problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3413_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ojs.luogu.P3413_" />
+    <configuration name="XORSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bbc.y2021a.XORSequence" />
       <module name="Leetcode-Pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ojs.luogu.*" />
+          <option name="PATTERN" value="bbc.y2021a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P1032_" />
-      <item itemvalue="Application.P2657" />
-      <item itemvalue="Application.P2602" />
-      <item itemvalue="Application.P3413" />
-      <item itemvalue="Application.P3413_" />
+      <item itemvalue="Application.P1378" />
+      <item itemvalue="Application.Problem890" />
+      <item itemvalue="Application.XORSequence" />
+      <item itemvalue="Application.LeftChildRightBrother" />
+      <item itemvalue="Application.BinaryIndexedTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P3413_" />
-        <item itemvalue="Application.P3413" />
-        <item itemvalue="Application.P2602" />
-        <item itemvalue="Application.P2657" />
-        <item itemvalue="Application.P1032_" />
+        <item itemvalue="Application.BinaryIndexedTree" />
+        <item itemvalue="Application.LeftChildRightBrother" />
+        <item itemvalue="Application.XORSequence" />
+        <item itemvalue="Application.Problem890" />
+        <item itemvalue="Application.P1378" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +321,17 @@
       <workItem from="1654518388868" duration="19000" />
       <workItem from="1654519216899" duration="99000" />
       <workItem from="1654519495814" duration="17007000" />
-      <workItem from="1654583370042" duration="89016000" />
+      <workItem from="1654583370042" duration="101618000" />
+      <workItem from="1654954764548" duration="3876000" />
+      <workItem from="1654963816643" duration="1212000" />
+      <workItem from="1655012098307" duration="7346000" />
+      <workItem from="1655034797931" duration="1234000" />
+      <workItem from="1655053619645" duration="59000" />
+      <workItem from="1655054371907" duration="56000" />
+      <workItem from="1655056447191" duration="1088000" />
+      <workItem from="1655097785833" duration="16000" />
+      <workItem from="1655097880360" duration="425000" />
+      <workItem from="1655099042681" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1644810414452</created>

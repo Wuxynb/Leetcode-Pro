@@ -1,7 +1,5 @@
 package problems;
 
-import java.util.Arrays;
-
 /**
  * 2132. 用邮票贴满网格图
  * 给你一个 m x n 的二进制矩阵 grid ，每个格子要么为 0 （空）要么为 1 （被占据）。
